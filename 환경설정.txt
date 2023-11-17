@@ -9,4 +9,4 @@ import pywinauto
 win = pg.getWindowsWithTitle("제목 없음")[0]
 pywinauto.application.Application().connect(handle=win._hWnd).top_window().set_focus()
 pg.sleep(1)
-win.activate()
+win.activate() 
